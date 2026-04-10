@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Forestcore Mushrooms</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="pixel-page">
+      <header class="pixel-header">
+        <div class="title-group">
+          <h1 class="logo-text">Forestcore Mushrooms</h1>
+          <p class="subtitle-text">A tiny pixel forest for cozy foragers</p>
+        </div>
+        <div class="header-actions">
+          <div id="userStatus" class="user-status user-status--logged-out">
+            <span class="user-status__greeting">Guest wanderer</span>
+          </div>
+          <a
+            id="loginLink"
+            href="/login"
+            class="pixel-btn pixel-btn--primary"
+          >
+            Login
+          </a>
+          <button
+            id="logoutBtn"
+            class="pixel-btn pixel-btn--ghost"
+            style="display: none"
+          >
+            Logout
+          </button>
+        </div>
+      </header>
+
+      <main class="pixel-main">
+        <section id="welcomePanel" class="pixel-card welcome-card">
+          <h2 class="pixel-heading">Welcome, forest friend</h2>
+          <p class="pixel-body-text">
+            Browse a small collection of cozy mushrooms. Each one comes with a
+            little lore and foresty vibes.
+          </p>
+          <div class="legend">
+            <span class="legend-pill legend-pill--edible">Edible</span>
+            <span class="legend-pill legend-pill--choice">Choice</span>
+            <span class="legend-pill legend-pill--toxic">Toxic</span>
+          </div>
+        </section>
+
+        <section id="mushroomGrid" class="mushroom-grid"></section>
+      </main>
+
+      <footer class="pixel-footer">
+        <span>Made with 🍄 &amp; 🌲 vibes</span>
+      </footer>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+  </html>
+

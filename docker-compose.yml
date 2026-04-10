@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  # 1. Your Mushroom Site (The Patient)
+  mushroom-app:
+    build: .
+    ports:
+      - "3000:3000"
+    depends_on:
+      - database
+    environment:
+      # Must match server.js (reads MONGO_URL or MONGO_URI); DB name must match what you use in mongosh (e.g. forestcore).
+      - MONGO_URL=mongodb://database:27017/forestcore
+      - GROQ_API_KEY=your_actual_api_key_here  # Add your key here
+
+  # 2. Your Database
+  database:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+
+volumes:
+  mongo-data:

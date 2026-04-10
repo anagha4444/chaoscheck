@@ -1,0 +1,276 @@
+
+Time: 2026-03-27 09:59:58.139724
+Error: MongoDB connection refused
+Fix: {'service': 'mongodb', 'action': 'restart', 'command': 'echo Restart MongoDB'}
+Success: True
+------------------------
+
+Time: 2026-03-27 09:59:58.163096
+Error: EADDRINUSE port 3000
+Fix: {'service': 'port', 'action': 'kill_port', 'command': 'echo Kill port 3000'}
+Success: True
+------------------------
+
+Time: 2026-03-27 09:59:58.184694
+Error: heap out of memory
+Fix: {'service': 'app', 'action': 'restart', 'command': 'echo Restart app'}
+Success: True
+------------------------
+
+Time: 2026-03-27 10:00:13.217597
+Error: MongoDB connection refused
+Fix: {'service': 'mongodb', 'action': 'restart', 'command': 'echo Restart MongoDB'}
+Success: True
+------------------------
+
+Time: 2026-03-27 10:00:13.247057
+Error: EADDRINUSE port 3000
+Fix: {'service': 'port', 'action': 'kill_port', 'command': 'echo Kill port 3000'}
+Success: True
+------------------------
+
+Time: 2026-03-27 10:00:13.267028
+Error: heap out of memory
+Fix: {'service': 'app', 'action': 'restart', 'command': 'echo Restart app'}
+Success: True
+------------------------
+
+Time: 2026-03-27 10:00:28.296665
+Error: MongoDB connection refused
+Fix: {'service': 'mongodb', 'action': 'restart', 'command': 'echo Restart MongoDB'}
+Success: True
+------------------------
+
+Time: 2026-03-27 10:00:28.331630
+Error: EADDRINUSE port 3000
+Fix: {'service': 'port', 'action': 'kill_port', 'command': 'echo Kill port 3000'}
+Success: True
+------------------------
+
+Time: 2026-03-27 10:00:28.355074
+Error: heap out of memory
+Fix: {'service': 'app', 'action': 'restart', 'command': 'echo Restart app'}
+Success: True
+------------------------
+
+Time: 2026-03-27 10:00:29.328058
+Error: MongoDB connection refused
+Fix: {'service': 'mongodb', 'action': 'restart', 'command': 'echo Restart MongoDB'}
+Success: True
+------------------------
+
+Time: 2026-03-27 10:00:43.378853
+Error: MongoDB connection refused
+Fix: {'service': 'mongodb', 'action': 'restart', 'command': 'echo Restart MongoDB'}
+Success: True
+------------------------
+
+Time: 2026-03-27 10:00:43.397786
+Error: EADDRINUSE port 3000
+Fix: {'service': 'port', 'action': 'kill_port', 'command': 'echo Kill port 3000'}
+Success: True
+------------------------
+
+Time: 2026-03-27 10:00:43.418626
+Error: heap out of memory
+Fix: {'service': 'app', 'action': 'restart', 'command': 'echo Restart app'}
+Success: True
+------------------------
+
+Time: 2026-03-27 10:00:58.439764
+Error: MongoDB connection refused
+Fix: {'service': 'mongodb', 'action': 'restart', 'command': 'echo Restart MongoDB'}
+Success: True
+------------------------
+
+Time: 2026-03-27 10:00:58.459465
+Error: EADDRINUSE port 3000
+Fix: {'service': 'port', 'action': 'kill_port', 'command': 'echo Kill port 3000'}
+Success: True
+------------------------
+
+Time: 2026-03-27 10:00:58.480626
+Error: heap out of memory
+Fix: {'service': 'app', 'action': 'restart', 'command': 'echo Restart app'}
+Success: True
+------------------------
+
+Time: 2026-03-27 10:01:13.514272
+Error: MongoDB connection refused
+Fix: {'service': 'mongodb', 'action': 'restart', 'command': 'echo Restart MongoDB'}
+Success: True
+------------------------
+
+Time: 2026-03-27 10:01:13.554789
+Error: EADDRINUSE port 3000
+Fix: {'service': 'port', 'action': 'kill_port', 'command': 'echo Kill port 3000'}
+Success: True
+------------------------
+
+Time: 2026-03-27 10:01:13.578195
+Error: heap out of memory
+Fix: {'service': 'app', 'action': 'restart', 'command': 'echo Restart app'}
+Success: True
+------------------------
+
+Time: 2026-03-27 10:01:28.598217
+Error: MongoDB connection refused
+Fix: {'service': 'mongodb', 'action': 'restart', 'command': 'echo Restart MongoDB'}
+Success: True
+------------------------
+
+Time: 2026-03-27 10:01:28.617821
+Error: EADDRINUSE port 3000
+Fix: {'service': 'port', 'action': 'kill_port', 'command': 'echo Kill port 3000'}
+Success: True
+------------------------
+
+Time: 2026-03-27 10:01:28.635924
+Error: heap out of memory
+Fix: {'service': 'app', 'action': 'restart', 'command': 'echo Restart app'}
+Success: True
+------------------------
+
+Time: 2026-03-27 10:01:43.662118
+Error: MongoDB connection refused
+Fix: {'service': 'mongodb', 'action': 'restart', 'command': 'echo Restart MongoDB'}
+Success: True
+------------------------
+
+Time: 2026-03-27 10:01:43.687954
+Error: EADDRINUSE port 3000
+Fix: {'service': 'port', 'action': 'kill_port', 'command': 'echo Kill port 3000'}
+Success: True
+------------------------
+
+Time: 2026-03-27 10:01:43.712634
+Error: heap out of memory
+Fix: {'service': 'app', 'action': 'restart', 'command': 'echo Restart app'}
+Success: True
+------------------------
+
+Time: 2026-03-27 10:01:58.736410
+Error: MongoDB connection refused
+Fix: {'service': 'mongodb', 'action': 'restart', 'command': 'echo Restart MongoDB'}
+Success: True
+------------------------
+
+Time: 2026-03-27 10:01:58.760331
+Error: EADDRINUSE port 3000
+Fix: {'service': 'port', 'action': 'kill_port', 'command': 'echo Kill port 3000'}
+Success: True
+------------------------
+
+Time: 2026-03-27 10:01:58.782927
+Error: heap out of memory
+Fix: {'service': 'app', 'action': 'restart', 'command': 'echo Restart app'}
+Success: True
+------------------------
+
+Time: 2026-03-27 10:02:13.810436
+Error: MongoDB connection refused
+Fix: {'service': 'mongodb', 'action': 'restart', 'command': 'echo Restart MongoDB'}
+Success: True
+------------------------
+
+Time: 2026-03-27 10:02:13.834167
+Error: EADDRINUSE port 3000
+Fix: {'service': 'port', 'action': 'kill_port', 'command': 'echo Kill port 3000'}
+Success: True
+------------------------
+
+Time: 2026-03-27 10:02:13.859112
+Error: heap out of memory
+Fix: {'service': 'app', 'action': 'restart', 'command': 'echo Restart app'}
+Success: True
+------------------------
+
+Time: 2026-03-27 10:02:28.882128
+Error: MongoDB connection refused
+Fix: {'service': 'mongodb', 'action': 'restart', 'command': 'echo Restart MongoDB'}
+Success: True
+------------------------
+
+Time: 2026-03-27 10:02:28.905605
+Error: EADDRINUSE port 3000
+Fix: {'service': 'port', 'action': 'kill_port', 'command': 'echo Kill port 3000'}
+Success: True
+------------------------
+
+Time: 2026-03-27 10:02:28.930277
+Error: heap out of memory
+Fix: {'service': 'app', 'action': 'restart', 'command': 'echo Restart app'}
+Success: True
+------------------------
+
+Time: 2026-03-27 10:02:43.950123
+Error: MongoDB connection refused
+Fix: {'service': 'mongodb', 'action': 'restart', 'command': 'echo Restart MongoDB'}
+Success: True
+------------------------
+
+Time: 2026-03-27 10:02:43.967052
+Error: EADDRINUSE port 3000
+Fix: {'service': 'port', 'action': 'kill_port', 'command': 'echo Kill port 3000'}
+Success: True
+------------------------
+
+Time: 2026-03-27 10:02:43.986569
+Error: heap out of memory
+Fix: {'service': 'app', 'action': 'restart', 'command': 'echo Restart app'}
+Success: True
+------------------------
+
+Time: 2026-03-27 10:02:59.007244
+Error: MongoDB connection refused
+Fix: {'service': 'mongodb', 'action': 'restart', 'command': 'echo Restart MongoDB'}
+Success: True
+------------------------
+
+Time: 2026-03-27 10:02:59.028281
+Error: EADDRINUSE port 3000
+Fix: {'service': 'port', 'action': 'kill_port', 'command': 'echo Kill port 3000'}
+Success: True
+------------------------
+
+Time: 2026-03-27 10:02:59.048021
+Error: heap out of memory
+Fix: {'service': 'app', 'action': 'restart', 'command': 'echo Restart app'}
+Success: True
+------------------------
+
+Time: 2026-03-27 10:03:14.073821
+Error: MongoDB connection refused
+Fix: {'service': 'mongodb', 'action': 'restart', 'command': 'echo Restart MongoDB'}
+Success: True
+------------------------
+
+Time: 2026-03-27 10:03:14.102291
+Error: EADDRINUSE port 3000
+Fix: {'service': 'port', 'action': 'kill_port', 'command': 'echo Kill port 3000'}
+Success: True
+------------------------
+
+Time: 2026-03-27 10:03:14.130143
+Error: heap out of memory
+Fix: {'service': 'app', 'action': 'restart', 'command': 'echo Restart app'}
+Success: True
+------------------------
+
+Time: 2026-04-10 15:44:44.349927
+Error: Error: listen EADDRINUSE: address already in use :::3000
+Fix: {'service': 'port', 'action': 'kill_port', 'command': 'echo Kill port 3000'}
+Success: True
+------------------------
+
+Time: 2026-04-10 15:46:16.118302
+Error: FATAL: JavaScript heap out of memory
+Fix: {'service': 'app', 'action': 'restart', 'command': 'echo Restart app'}
+Success: True
+------------------------
+
+Time: 2026-04-10 16:54:50.870019
+Error: FATAL: JavaScript heap out of memory
+Fix: {'service': 'app', 'action': 'restart', 'command': 'echo Restart app'}
+Success: True
+------------------------

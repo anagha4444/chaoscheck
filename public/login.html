@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Forestcore Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="pixel-page">
+      <header class="pixel-header">
+        <div class="title-group">
+          <h1 class="logo-text">Forestcore Mushrooms</h1>
+          <p class="subtitle-text">Log in to enter the cozy grove</p>
+        </div>
+        <div class="header-actions">
+          <a href="/signup" class="pixel-btn pixel-btn--primary">Sign up</a>
+          <a href="/" class="pixel-btn pixel-btn--ghost">Back to mushrooms</a>
+        </div>
+      </header>
+
+      <main class="pixel-main" style="grid-template-columns: minmax(0, 1fr)">
+        <section class="pixel-card login-card">
+          <h2 class="pixel-heading">Gate to the Grove</h2>
+          <p class="pixel-body-text">
+            Use the secret words to step into the pink pixel forest.
+          </p>
+          <form id="loginForm" class="pixel-form">
+            <label class="pixel-label">
+              <span>Username</span>
+              <input
+                class="pixel-input"
+                type="text"
+                name="username"
+                autocomplete="username"
+                required
+                value="forager"
+              />
+            </label>
+            <label class="pixel-label">
+              <span>Password</span>
+              <input
+                class="pixel-input"
+                type="password"
+                name="password"
+                autocomplete="current-password"
+                required
+                value="forest"
+              />
+            </label>
+            <p class="hint-text">
+              Demo login → <strong>forager / forest</strong>
+            </p>
+            <button type="submit" class="pixel-btn pixel-btn--accent">
+              Enter the forest
+            </button>
+            <p id="loginError" class="error-text" aria-live="polite"></p>
+          </form>
+        </section>
+      </main>
+
+      <footer class="pixel-footer">
+        <span>Made with 🍄 &amp; 🌸 pixel dreams</span>
+      </footer>
+    </div>
+
+    <script src="/login.js"></script>
+  </body>
+  </html>
+

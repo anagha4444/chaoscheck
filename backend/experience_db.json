@@ -1,0 +1,344 @@
+[
+  {
+    "timestamp": "2026-04-10T08:18:28.269229Z",
+    "context": {
+      "service": "app",
+      "symptom": "unknown_failure",
+      "has_error_log": 1,
+      "has_connection_refused": 0,
+      "has_mongodb": 0,
+      "has_eaddrinuse": 0,
+      "has_memory": 0,
+      "container_running": 0,
+      "source_monitor": 1,
+      "source_user": 0
+    },
+    "action_id": "restart_app",
+    "success": true,
+    "reward": 9,
+    "source": "user"
+  },
+  {
+    "timestamp": "2026-04-10T08:19:38.105068Z",
+    "context": {
+      "service": "app",
+      "symptom": "unknown_failure",
+      "has_error_log": 1,
+      "has_connection_refused": 0,
+      "has_mongodb": 0,
+      "has_eaddrinuse": 0,
+      "has_memory": 0,
+      "container_running": 0,
+      "source_monitor": 1,
+      "source_user": 0
+    },
+    "action_id": "restart_app",
+    "success": true,
+    "reward": 9,
+    "source": "user"
+  },
+  {
+    "timestamp": "2026-04-10T09:01:40.425360Z",
+    "context": {
+      "service": "app",
+      "symptom": "unknown_failure",
+      "has_error_log": 1,
+      "has_connection_refused": 0,
+      "has_mongodb": 0,
+      "has_eaddrinuse": 0,
+      "has_memory": 0,
+      "container_running": 0,
+      "source_monitor": 1,
+      "source_user": 0
+    },
+    "action_id": "restart_app",
+    "success": true,
+    "reward": 9,
+    "source": "user"
+  },
+  {
+    "timestamp": "2026-04-10T10:18:15.407407Z",
+    "context": {
+      "service": "app",
+      "symptom": "unknown_failure",
+      "has_error_log": 1,
+      "has_connection_refused": 0,
+      "has_mongodb": 0,
+      "has_eaddrinuse": 0,
+      "has_memory": 0,
+      "container_running": 0,
+      "source_monitor": 1,
+      "source_user": 0
+    },
+    "action_id": "restart_app",
+    "success": true,
+    "reward": 9,
+    "source": "user"
+  },
+  {
+    "timestamp": "2026-04-10T10:41:34.233289Z",
+    "context": {
+      "service": "app",
+      "symptom": "unknown_failure",
+      "has_error_log": 1,
+      "has_connection_refused": 0,
+      "has_mongodb": 0,
+      "has_eaddrinuse": 0,
+      "has_memory": 0,
+      "container_running": 0,
+      "source_monitor": 1,
+      "source_user": 0
+    },
+    "action_id": "restart_app",
+    "success": true,
+    "reward": 9,
+    "source": "user"
+  },
+  {
+    "timestamp": "2026-04-10T10:56:40.949319Z",
+    "context": {
+      "service": "app",
+      "symptom": "unknown_failure",
+      "has_error_log": 1,
+      "has_connection_refused": 0,
+      "has_mongodb": 0,
+      "has_eaddrinuse": 0,
+      "has_memory": 0,
+      "container_running": 0,
+      "source_monitor": 1,
+      "source_user": 0
+    },
+    "action_id": "restart_app",
+    "success": true,
+    "reward": 9,
+    "source": "bandit"
+  },
+  {
+    "timestamp": "2026-04-10T10:58:00.597658Z",
+    "context": {
+      "service": "app",
+      "symptom": "unknown_failure",
+      "has_error_log": 1,
+      "has_connection_refused": 0,
+      "has_mongodb": 0,
+      "has_eaddrinuse": 0,
+      "has_memory": 0,
+      "container_running": 0,
+      "source_monitor": 1,
+      "source_user": 0
+    },
+    "action_id": "restart_app",
+    "success": true,
+    "reward": 9,
+    "source": "user"
+  },
+  {
+    "timestamp": "2026-04-10T10:59:57.706121Z",
+    "context": {
+      "service": "app",
+      "symptom": "unknown_failure",
+      "has_error_log": 1,
+      "has_connection_refused": 0,
+      "has_mongodb": 0,
+      "has_eaddrinuse": 0,
+      "has_memory": 0,
+      "container_running": 0,
+      "source_monitor": 1,
+      "source_user": 0
+    },
+    "action_id": "restart_app",
+    "success": true,
+    "reward": 9,
+    "source": "bandit"
+  },
+  {
+    "timestamp": "2026-04-10T11:00:08.121548Z",
+    "context": {
+      "service": "app",
+      "symptom": "unknown_failure",
+      "has_error_log": 1,
+      "has_connection_refused": 0,
+      "has_mongodb": 0,
+      "has_eaddrinuse": 0,
+      "has_memory": 0,
+      "container_running": 0,
+      "source_monitor": 1,
+      "source_user": 0
+    },
+    "action_id": "restart_app",
+    "success": true,
+    "reward": 9,
+    "source": "bandit"
+  },
+  {
+    "timestamp": "2026-04-10T11:00:29.193409Z",
+    "context": {
+      "service": "app",
+      "symptom": "unknown_failure",
+      "has_error_log": 1,
+      "has_connection_refused": 0,
+      "has_mongodb": 0,
+      "has_eaddrinuse": 0,
+      "has_memory": 0,
+      "container_running": 0,
+      "source_monitor": 1,
+      "source_user": 0
+    },
+    "action_id": "restart_app",
+    "success": true,
+    "reward": 9,
+    "source": "user"
+  },
+  {
+    "timestamp": "2026-04-10T11:03:53.646744Z",
+    "context": {
+      "service": "app",
+      "symptom": "unknown_failure",
+      "has_error_log": 1,
+      "has_connection_refused": 0,
+      "has_mongodb": 0,
+      "has_eaddrinuse": 0,
+      "has_memory": 0,
+      "container_running": 0,
+      "source_monitor": 1,
+      "source_user": 0
+    },
+    "action_id": "restart_app",
+    "success": true,
+    "reward": 9,
+    "source": "bandit"
+  },
+  {
+    "timestamp": "2026-04-10T11:04:05.014559Z",
+    "context": {
+      "service": "app",
+      "symptom": "unknown_failure",
+      "has_error_log": 1,
+      "has_connection_refused": 0,
+      "has_mongodb": 0,
+      "has_eaddrinuse": 0,
+      "has_memory": 0,
+      "container_running": 0,
+      "source_monitor": 1,
+      "source_user": 0
+    },
+    "action_id": "restart_app",
+    "success": true,
+    "reward": 9,
+    "source": "user"
+  },
+  {
+    "timestamp": "2026-04-10T11:14:43.370181Z",
+    "context": {
+      "service": "app",
+      "symptom": "unknown_failure",
+      "has_error_log": 1,
+      "has_connection_refused": 0,
+      "has_mongodb": 0,
+      "has_eaddrinuse": 0,
+      "has_memory": 0,
+      "container_running": 0,
+      "source_monitor": 1,
+      "source_user": 0
+    },
+    "action_id": "restart_app",
+    "success": true,
+    "reward": 9,
+    "source": "bandit"
+  },
+  {
+    "timestamp": "2026-04-10T11:14:57.536676Z",
+    "context": {
+      "service": "app",
+      "symptom": "unknown_failure",
+      "has_error_log": 1,
+      "has_connection_refused": 0,
+      "has_mongodb": 0,
+      "has_eaddrinuse": 0,
+      "has_memory": 0,
+      "container_running": 0,
+      "source_monitor": 1,
+      "source_user": 0
+    },
+    "action_id": "restart_app",
+    "success": true,
+    "reward": 9,
+    "source": "user"
+  },
+  {
+    "timestamp": "2026-04-10T11:15:10.716179Z",
+    "context": {
+      "service": "app",
+      "symptom": "unknown_failure",
+      "has_error_log": 1,
+      "has_connection_refused": 0,
+      "has_mongodb": 0,
+      "has_eaddrinuse": 0,
+      "has_memory": 0,
+      "container_running": 0,
+      "source_monitor": 1,
+      "source_user": 0
+    },
+    "action_id": "restart_app",
+    "success": true,
+    "reward": 9,
+    "source": "bandit"
+  },
+  {
+    "timestamp": "2026-04-10T11:15:31.950711Z",
+    "context": {
+      "service": "app",
+      "symptom": "unknown_failure",
+      "has_error_log": 1,
+      "has_connection_refused": 0,
+      "has_mongodb": 0,
+      "has_eaddrinuse": 0,
+      "has_memory": 0,
+      "container_running": 0,
+      "source_monitor": 1,
+      "source_user": 0
+    },
+    "action_id": "restart_app",
+    "success": true,
+    "reward": 9,
+    "source": "user"
+  },
+  {
+    "timestamp": "2026-04-10T11:15:51.599188Z",
+    "context": {
+      "service": "app",
+      "symptom": "unknown_failure",
+      "has_error_log": 1,
+      "has_connection_refused": 0,
+      "has_mongodb": 0,
+      "has_eaddrinuse": 0,
+      "has_memory": 0,
+      "container_running": 0,
+      "source_monitor": 1,
+      "source_user": 0
+    },
+    "action_id": "restart_app",
+    "success": true,
+    "reward": 9,
+    "source": "bandit"
+  },
+  {
+    "timestamp": "2026-04-10T11:23:35.216713Z",
+    "context": {
+      "service": "app",
+      "symptom": "unknown_failure",
+      "has_error_log": 1,
+      "has_connection_refused": 0,
+      "has_mongodb": 0,
+      "has_eaddrinuse": 0,
+      "has_memory": 0,
+      "container_running": 0,
+      "source_monitor": 1,
+      "source_user": 0
+    },
+    "action_id": "restart_app",
+    "success": true,
+    "reward": 9,
+    "source": "bandit"
+  }
+]

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Forestcore Sign Up</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="pixel-page">
+      <header class="pixel-header">
+        <div class="title-group">
+          <h1 class="logo-text">Forestcore Mushrooms</h1>
+          <p class="subtitle-text">Create your forager account</p>
+        </div>
+        <div class="header-actions">
+          <a href="/login" class="pixel-btn pixel-btn--ghost">Already have an account?</a>
+        </div>
+      </header>
+
+      <main class="pixel-main" style="grid-template-columns: minmax(0, 1fr)">
+        <section class="pixel-card login-card">
+          <h2 class="pixel-heading">New forest friend</h2>
+          <p class="pixel-body-text">
+            Pick a cozy username and a secret password. We’ll keep it safe in the forest
+            database.
+          </p>
+          <form id="signupForm" class="pixel-form">
+            <label class="pixel-label">
+              <span>Display name</span>
+              <input
+                class="pixel-input"
+                type="text"
+                name="displayName"
+                required
+                placeholder="e.g. Mossy Wanderer"
+              />
+            </label>
+            <label class="pixel-label">
+              <span>Username</span>
+              <input
+                class="pixel-input"
+                type="text"
+                name="username"
+                autocomplete="username"
+                required
+              />
+            </label>
+            <label class="pixel-label">
+              <span>Password</span>
+              <input
+                class="pixel-input"
+                type="password"
+                name="password"
+                autocomplete="new-password"
+                required
+              />
+            </label>
+            <label class="pixel-label">
+              <span>Confirm password</span>
+              <input
+                class="pixel-input"
+                type="password"
+                name="confirmPassword"
+                autocomplete="new-password"
+                required
+              />
+            </label>
+            <p class="hint-text">
+              Your password is stored hashed in MongoDB, never in plain text.
+            </p>
+            <button type="submit" class="pixel-btn pixel-btn--accent">
+              Join the grove
+            </button>
+            <p id="signupError" class="error-text" aria-live="polite"></p>
+          </form>
+        </section>
+      </main>
+
+      <footer class="pixel-footer">
+        <span>Made with 🍄 &amp; 🌸 pixel dreams</span>
+      </footer>
+    </div>
+
+    <script src="/signup.js"></script>
+  </body>
+  </html>
+
